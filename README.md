@@ -2,7 +2,7 @@
 
 AdPilot is a deployable multi-agent campaign simulator for validating online marketing ideas before launch. It collects campaign details, lets the user choose three free OpenRouter model slots, spins up persona-based user agents, and returns a graphical campaign report with agent-level behavior.
 
-**Live site:** [adpilot.darshdave.com](https://adpilot.darshdave.com)  
+**Explore Prototype:** [adpilot.darshdave.com](https://adpilot.darshdave.com)  
 **Portfolio:** [darshdave.com](https://darshdave.com)
 
 ## Screenshots
