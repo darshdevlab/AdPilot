@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Route } from "next";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, BarChart3, Layers3, Loader2, RotateCcw, Users } from "lucide-react";
+import { ProjectLinks } from "@/components/project-links";
 import {
   AgentsTabView,
   ReportTabView,
@@ -133,6 +134,7 @@ export default function ResultsPage() {
             <h2>{result?.campaignInput.campaignName || input?.campaignName || "Simulation Results"}</h2>
           </div>
           <div className="results-actions">
+            <ProjectLinks />
             <button type="button" className="secondary-action" onClick={goBackToSetup}>
               <ArrowLeft size={16} />
               <span>Setup</span>

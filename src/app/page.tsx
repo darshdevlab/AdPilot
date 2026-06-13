@@ -12,6 +12,7 @@ import {
   LATEST_ANALYSIS_RESULT_KEY,
   PENDING_CAMPAIGN_INPUT_KEY,
 } from "@/lib/client-storage";
+import { ProjectLinks } from "@/components/project-links";
 import {
   campaignLabels,
   campaignTypes,
@@ -163,6 +164,7 @@ export default function Home() {
               <span>Campaign Simulator</span>
             </h1>
           </div>
+          <ProjectLinks />
         </div>
 
         <div className="setup-layout">
